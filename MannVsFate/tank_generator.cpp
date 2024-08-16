@@ -1,6 +1,7 @@
 #include "tank_generator.h"
 #include "rand_util.h"
 #include "pressure_manager.h"
+#include <cmath>
 
 tank_generator::tank_generator(pressure_manager& wave_pressure)
 	: wave_pressure(wave_pressure),

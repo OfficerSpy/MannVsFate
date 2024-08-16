@@ -1,5 +1,6 @@
 #include "pressure_manager.h"
 #include "currency_manager.h"
+#include <cmath>
 
 pressure_manager::pressure_manager(currency_manager& cm)
 	: mission_currency(cm),
